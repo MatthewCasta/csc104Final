@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><!-- The Head contains all of the information needed to view your page online -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to The DIY Center</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="page2">
+
+<header><!-- Sits accross the top of the page, first section of the page the user will read. -->
+  <h1>Matt's One Stop Service Log</h1>
+</header>
+
+<main>
+  <!-- Your main page information will sit in this section -->
+  <h2>New User Profile</h2>
+  <h3>Please Answer the Following Questions:</h3>
+    <form name="theForm" id="theForm" action="#" method="get">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required placeholder="Your First Name">
+        <br>
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required placeholder="Your Last Name">
+        <br>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="xxx-xxx-xxxx">
+        <br>
+        <label for="email_addr">Email:</label>
+        <input type="email" id="email_addr" name="email_addr" required placeholder="yourname@domain.com" required>
+        <br>
+        <label for="year">Vehicle Year:</label>
+        <input type="number" id="year" name="year" required placeholder="Vehicle Year">
+        <br>
+        <label for="make">Vehicle Make:</label>
+        <input type="text" id="make" name="make" required placeholder="Vehicle Make">
+        <br>
+        <label for="model">Vehicle Model:</label>
+        <input type="text" id="model" name="model" required placeholder="Vehicle Model">
+        <br>
+        <label for="miles">Daily Miles:</label>
+        <input type="range" id="miles" name="miles" min="0" step="1">
+        <br>
+        <label for="purpose">Purpose:</label>
+        <input type="radio" id="personal" name="purpose" value="personal">Personal
+        <input type="radio" id="buisness" name="purpose" value="buisness">Buisness
+        <input type="radio" id="fleet" name="purpose" value="fleet">Fleet
+        <br>
+        <label for="model">Vehicle Model:</label>
+        <input type="text" id="model" name="model" required placeholder="Vehicle Model">
+        <br>
+        <label for="nickName">Vehicle Nickname:</label>
+        <textarea name="nickName" id="nickName" rows="2" col="25" placeholder="Nickname"></textarea>
+        <br>
+        <input type="reset" value="Reset">
+        <button type="submit">Submit Form</button>
+
+</main>
+
+<div class="sidebar">
+  <nav>
+    <ul>
+      <li><a href="finalHomepage.html">Home</a></li>
+      <li><a href="profilePage.html">Profile</a></li>
+      <li><a href="checklistPage.html">Job Checklist</a></li>
+      <li><a href="contactPage.html">Links and Contacts</a></li>
+    </ul>
+  </nav>
+</div>
+
+
+</body>
+</html>

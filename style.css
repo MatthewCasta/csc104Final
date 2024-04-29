@@ -1,0 +1,125 @@
+
+/* Style for Page Background, will be replaced with image */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: aqua;
+}
+
+/* Establishes side bar on left of screen */
+.sidebar {
+  width: 200px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #333;
+  color: #fff;
+}
+
+/* Style for side bar */
+.sidebar nav {
+  margin-top: 100px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar li a {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+/* Style for the Side bar line items */
+.sidebar li a:hover {
+  background-color: #555;
+}
+
+/* Style for the Page Header */
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  font-variant: initial;
+}
+
+/* Style for the Main Body */
+main {
+  margin-left: 200px; 
+  margin-top: 20px; 
+  padding: 20px;
+}
+
+/* Style for the Job Section "Brake Job" */
+h2{
+  font-size: 24px; 
+  color: #333; 
+  font-family: Arial, sans-serif; 
+  text-align: center; 
+  font-weight: bold; 
+}
+
+/* Style for the Warning to complete */
+h3{
+  font-size: 22px; 
+  color: #cc1414; 
+  font-family: Arial, sans-serif; 
+  text-align: center; 
+  font-weight: bold;
+}
+
+/* Style for the Checklist Section */
+h4{
+  font-size: 20px; 
+  color: #333; 
+  font-family: Arial, sans-serif; 
+  text-align: left; 
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Style for the checklist */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style for each list item*/
+li {
+  margin-bottom: 10px;
+}
+
+/* Style for the checkbox */
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+/* Style for the label */
+label {
+  cursor: pointer;
+}
+
+/* Style for checked checkbox */
+input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.page1 {
+  background-image: url('https://gotoltc.edu/sites/default/files/2021-07/automotive_maintenance_technician_program_page.jpg');}
+.page2 {
+  background-image: url('https://c8.alamy.com/comp/2EB3R66/car-maintenance-service-vector-flat-illustration-mechanics-washing-the-car-lifting-automobile-and-checking-problems-repairing-wheels-and-engine-of-car-fixing-and-tuning-car-concept-2EB3R66.jpg');}
+.page3 {
+  background-image: url('https://as2.ftcdn.net/v2/jpg/04/31/99/89/1000_F_431998945_SPdVC5HYJdbR9k9e1A0NYw4hiwWZsvLA.jpg');}
+.page4 {
+  background-image: url('https://di-uploads-pod16.dealerinspire.com/toyotaofnorthcharlotte/uploads/2020/07/car-maintenance-tips.jpg');}
